@@ -45,5 +45,5 @@ in a separate terminal in the `<new-project-name>` folder. Graphical query build
 
 * [Substrate quickstart guide at Subsquid docs](https://docs.subsquid.io/quickstart/quickstart-substrate/): a more detailed version of this README that gets updated before this file does.
 * [Squid development flow](https://docs.subsquid.io/basics/squid-development/): a guide to reshaping a template into your own squid.
-* (possibly still under construction)[Substrate indexing]: the comprehensive documentation section on indexing Substrate.
+* (possibly still under construction)[Substrate indexing](https://docs.subsquid.io/substrate-indexing/): the comprehensive documentation section on indexing Substrate.
 * [Tutorials](https://docs.subsquid.io/tutorials/) and [examples](https://docs.subsquid.io/examples).
