@@ -19,7 +19,7 @@ You now have a copy of the chosen squid template sitting at the `<new-project-na
 
 ## Starting the squid
 
-All squid templates are complete simple squids. They can run locally immediately upon being downloaded, provided that `sqd` and Docker are available.
+All Substrate squid templates are complete simple squids. They can run locally immediately upon being downloaded, provided that `sqd` and Docker are available.
 
 The "processor" process is present in all squids. It downloads pre-filtered blockchain data from [Subsquid Archives](https://docs.subsquid.io/archives/), applies any necessary transformations and saves the result in an [application-appropriate storage](https://docs.subsquid.io/basics/store/). All template squids store their data to a Postgresql database and provide a way to access it via a GraphQL API.
 
