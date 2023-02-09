@@ -2,10 +2,10 @@
 
 This repository is a collection of simple [Subsquid](https://www.subsquid.io)-based indexers ("squids") for scraping blockchain data from [Substrate](https://substrate.io)-based chains such as Polkadot, Kusama, Moonbeam, Astar, Shibuya etc. They are useful as starting points for new projects indexing the following:
 
-* **substrate** - for all projects involving Substrate
-* **frontier-evm** - chains with Frontier EVM support (Moonbeam, Moonriver, Shiden, Astar)
-* **ink** - Ink!-based WASM contracts, supported e.g. by Astar and Shibuya networks
-* **acala** - EVM+ contracts deployed to Acala or Karura network
+* [**substrate**](https://github.com/subsquid-labs/squid-substrate-template/) - for all projects involving Substrate
+* [**frontier-evm**](https://github.com/subsquid-labs/squid-frontier-evm-template/) - chains with Frontier EVM support (Moonbeam, Moonriver, Shiden, Astar)
+* [**ink**](https://github.com/subsquid-labs/squid-wasm-template/) - Ink!-based WASM contracts, supported e.g. by Astar and Shibuya networks
+* [**acala**](https://github.com/subsquid-labs/squid-acala-evm-template/) - EVM+ contracts deployed to Acala or Karura network
 
 To begin using these templates, install the `sqd` excutable:
 ```bash
