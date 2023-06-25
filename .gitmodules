@@ -1,12 +1,16 @@
 [submodule "substrate-template"]
 	path = substrate-template
-	url = https://github.com/subsquid/squid-substrate-template.git
+	url = https://github.com/subsquid-labs/squid-substrate-template.git
+	branch = main
 [submodule "frontier-template"]
 	path = frontier-template
-	url = https://github.com/subsquid/squid-frontier-evm-template.git
+	url = https://github.com/subsquid-labs/squid-frontier-evm-template.git
+	branch = master
 [submodule "ink-template"]
 	path = ink-template
-	url = https://github.com/subsquid/squid-wasm-template.git
+	url = https://github.com/subsquid-labs/squid-wasm-template.git
+	branch = master
 [submodule "acala-evm-template"]
 	path = acala-evm-template
-	url = https://github.com/subsquid/squid-acala-tempate.git
+	url = https://github.com/subsquid-labs/squid-acala-evm-template.git
+	branch = main
