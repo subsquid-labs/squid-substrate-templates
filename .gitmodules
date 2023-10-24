@@ -10,7 +10,3 @@
 	path = ink-template
 	url = https://github.com/subsquid-labs/squid-wasm-template.git
 	branch = master
-[submodule "acala-evm-template"]
-	path = acala-evm-template
-	url = https://github.com/subsquid-labs/squid-acala-evm-template.git
-	branch = main
