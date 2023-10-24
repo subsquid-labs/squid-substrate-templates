@@ -3,9 +3,8 @@
 This repository is a collection of simple [Subsquid](https://www.subsquid.io)-based indexers ("squids") for scraping blockchain data from [Substrate](https://substrate.io)-based chains such as Polkadot, Kusama, Moonbeam, Astar, Shibuya etc. They are useful as starting points for new projects indexing the following:
 
 * [**substrate**](https://github.com/subsquid-labs/squid-substrate-template/) - for all projects involving Substrate
-* [**frontier-evm**](https://github.com/subsquid-labs/squid-frontier-evm-template/) - chains with Frontier EVM support (Moonbeam, Moonriver, Shiden, Astar)
 * [**ink**](https://github.com/subsquid-labs/squid-wasm-template/) - Ink!-based WASM contracts, supported e.g. by Astar and Shibuya networks
-* [**acala**](https://github.com/subsquid-labs/squid-acala-evm-template/) - EVM+ contracts deployed to Acala or Karura network
+* [**frontier-evm**](https://github.com/subsquid-labs/squid-frontier-evm-template/) - chains with Frontier EVM support (Moonbeam, Moonriver, Shiden, Astar)
 
 To begin using these templates, install the `sqd` excutable:
 ```bash
@@ -13,7 +12,7 @@ npm install -g @subsquid/cli@latest
 ```
 Next, fetch the chosen template to a new project folder using `sqd init`:
 ```bash
-sqd init <new-project-name> -t <substrate|frontier-evm|ink|acala>
+sqd init <new-project-name> -t <substrate|ink|frontier-evm>
 ```
 You now have a copy of the chosen squid template sitting at the `<new-project-name>` folder.
 
