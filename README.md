@@ -1,6 +1,6 @@
 # Templates for Substrate squids
 
-This repository is a collection of simple [Subsquid](https://www.subsquid.io)-based indexers ("squids") for scraping blockchain data from [Substrate](https://substrate.io)-based chains such as Polkadot, Kusama, Moonbeam, Astar, Shibuya etc. They are useful as starting points for new projects indexing the following:
+This repository is a collection of simple [Subsquid](https://sqd.dev)-based indexers ("squids") for scraping blockchain data from [Substrate](https://substrate.io)-based chains such as Polkadot, Kusama, Moonbeam, Astar, Shibuya etc. They are useful as starting points for new projects indexing the following:
 
 * [**substrate**](https://github.com/subsquid-labs/squid-substrate-template/) - for all projects involving Substrate
 * [**ink**](https://github.com/subsquid-labs/squid-wasm-template/) - Ink!-based WASM contracts, supported e.g. by Astar and Shibuya networks
@@ -20,7 +20,7 @@ You now have a copy of the chosen squid template sitting at the `<new-project-na
 
 All Substrate squid templates are complete simple squids. They can run locally immediately upon being downloaded, provided that `sqd` and Docker are available.
 
-The "processor" process is present in all squids. It downloads pre-filtered blockchain data from [Subsquid Archives](https://docs.subsquid.io/archives/), applies any necessary transformations and saves the result in an [application-appropriate storage](https://docs.subsquid.io/basics/store/). All template squids store their data to a Postgresql database and provide a way to access it via a GraphQL API.
+The "processor" process is present in all squids. It downloads pre-filtered blockchain data from [Subsquid Archives](https://docs.sqd.dev/en/sdk), applies any necessary transformations and saves the result in an [application-appropriate storage](https://docs.sqd.dev/en/sdk). All template squids store their data to a Postgresql database and provide a way to access it via a GraphQL API.
 
 To start the processor, run
 ```bash
@@ -42,7 +42,7 @@ in a separate terminal in the `<new-project-name>` folder. Graphical query build
 
 ## Further reading
 
-* [Substrate quickstart guide at Subsquid docs](https://docs.subsquid.io/quickstart/quickstart-substrate/): a more detailed version of this README that gets updated before this file does.
-* [Squid development flow](https://docs.subsquid.io/basics/squid-development/): a guide to reshaping a template into your own squid.
-* (possibly still under construction)[Substrate indexing](https://docs.subsquid.io/substrate-indexing/): the comprehensive documentation section on indexing Substrate.
-* [Tutorials](https://docs.subsquid.io/tutorials/) and [examples](https://docs.subsquid.io/examples).
+* [Substrate quickstart guide at Subsquid docs](https://docs.sqd.dev/en/sdk): a more detailed version of this README that gets updated before this file does.
+* [Squid development flow](https://docs.sqd.dev/en/sdk): a guide to reshaping a template into your own squid.
+* (possibly still under construction)[Substrate indexing](https://docs.sqd.dev/en/sdk): the comprehensive documentation section on indexing Substrate.
+* [Tutorials](https://docs.sqd.dev/en/sdk) and [examples](https://docs.sqd.dev/en/sdk).
